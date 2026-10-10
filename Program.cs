@@ -44,6 +44,13 @@ class Program
         
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
 
+        do
+        {
+            Console.WriteLine("Dis oui");
+        } while (Console.ReadLine() != "oui");
+
+        Console.WriteLine("Tu as dis oui");
+        
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
          */
